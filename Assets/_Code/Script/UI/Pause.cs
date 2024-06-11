@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
-namespace Ivayami.UI {
+namespace BGTask {
     public class Pause : Singleton<Pause> {
 
         [Header("Events")]

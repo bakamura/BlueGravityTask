@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Ivayami.UI {
+namespace BGTask {
     public class Quit : MonoBehaviour {
 
         public void QuitGame() {
