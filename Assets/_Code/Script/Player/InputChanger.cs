@@ -8,7 +8,8 @@ namespace BGTask {
         [Header("References")]
 
         [SerializeField] private InputActionAsset _inputActionAsset;
-        [SerializeField] private InputActionMap _menuActionMap;
+        [SerializeField] private InputActionReference _unPauseInput;
+        private InputActionMap _menuActionMap;
 
         [Header("Cache")]
 
@@ -17,6 +18,7 @@ namespace BGTask {
         protected override void Awake() {
             base.Awake();
 
+            _menuActionMap = _inputActionAsset.actionMaps.FirstOrDefault(actionMap => actionMap.name == "Menu");
             ChangeInputMap("Player");
         }
 
@@ -26,10 +28,12 @@ namespace BGTask {
         }
 
         public void ChangeInputMap(string mapId) {
-            if(_inputActionMap != _menuActionMap) _inputActionMap?.Disable(); // Should only prevent disable when in PC
+            if (_inputActionMap != _menuActionMap) _inputActionMap?.Disable(); // Should only prevent disable when in PC
+            else _unPauseInput.action.Disable();
             if (mapId != null) {
                 _inputActionMap = _inputActionAsset.actionMaps.FirstOrDefault(actionMap => actionMap.name == mapId);
                 _inputActionMap.Enable();
+                if (_inputActionMap == _menuActionMap) _unPauseInput.action.Enable();
             }
         }
 

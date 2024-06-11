@@ -3375,6 +3375,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _inputActionAsset: {fileID: -944628639613478452, guid: 6a87c292f9427d74db3437c90b7117ad, type: 3}
+  _unPauseInput: {fileID: -1037600358843939453, guid: 6a87c292f9427d74db3437c90b7117ad, type: 3}
 --- !u!4 &966800570
 Transform:
   m_ObjectHideFlags: 0
