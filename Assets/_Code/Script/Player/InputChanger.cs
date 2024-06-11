@@ -8,6 +8,7 @@ namespace BGTask {
         [Header("References")]
 
         [SerializeField] private InputActionAsset _inputActionAsset;
+        [SerializeField] private InputActionMap _menuActionMap;
 
         [Header("Cache")]
 
@@ -17,12 +18,15 @@ namespace BGTask {
             base.Awake();
 
             ChangeInputMap("Player");
+        }
+
+        private void Start() {
             Pause.Instance.OnPause.AddListener(() => ChangeInputMap("Menu"));
             Pause.Instance.OnUnpause.AddListener(() => ChangeInputMap("Player"));
         }
 
         public void ChangeInputMap(string mapId) {
-            _inputActionMap?.Disable();
+            if(_inputActionMap != _menuActionMap) _inputActionMap?.Disable(); // Should only prevent disable when in PC
             if (mapId != null) {
                 _inputActionMap = _inputActionAsset.actionMaps.FirstOrDefault(actionMap => actionMap.name == mapId);
                 _inputActionMap.Enable();
