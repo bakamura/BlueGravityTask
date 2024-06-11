@@ -22,7 +22,9 @@ namespace BGTask {
 
         private Rigidbody2D _rigidbody;
 
-        private void Awake() {
+        protected override void Awake() {
+            base.Awake();
+
             _movementInput.action.actionMap.Enable();
             _movementInput.action.performed += MoveDirection;
             _movementInput.action.canceled += MoveDirection;
@@ -40,7 +42,9 @@ namespace BGTask {
 
         private void MoveDirection(InputAction.CallbackContext context) {
             _inputDirection = context.ReadValue<Vector2>();
-            onMoveDirectionChange.Invoke(_inputDirection);
+            onMoveDirectionChange?.Invoke(_inputDirection);
+
+            Debug.Log($"Movement Direction Changed to {_inputDirection}");
         }
 
     }

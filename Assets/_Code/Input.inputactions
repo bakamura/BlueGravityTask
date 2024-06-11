@@ -124,6 +124,17 @@
                 },
                 {
                     "name": "",
+                    "id": "2c867f6b-e649-4f59-8a4d-06884f2674bb",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard + Mouse",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "01c31984-9aa8-4cdc-bcd1-81835c10834a",
                     "path": "<Gamepad>/start",
                     "interactions": "",
