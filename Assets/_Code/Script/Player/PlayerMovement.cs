@@ -1,8 +1,12 @@
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
 namespace BGTask {
-    public class PlayerMovement : MonoBehaviour {
+    [RequireComponent(typeof(Rigidbody2D))]
+    public class PlayerMovement : Singleton<PlayerMovement> {
+
+        public UnityEvent<Vector2> onMoveDirectionChange { get; private set; } = new UnityEvent<Vector2>();
 
         [Header("Input")]
 
@@ -16,14 +20,27 @@ namespace BGTask {
 
         private Vector2 _inputDirection;
 
+        private Rigidbody2D _rigidbody;
+
         private void Awake() {
-            _movementInput.action.performed += Move;
+            _movementInput.action.actionMap.Enable();
+            _movementInput.action.performed += MoveDirection;
+            _movementInput.action.canceled += MoveDirection;
+            
+            _rigidbody = GetComponent<Rigidbody2D>();
         }
 
-        private void Move(InputAction.CallbackContext context) {
+        private void FixedUpdate() {
+            Move();            
+        }
+
+        private void Move() {
+            _rigidbody.velocity = _inputDirection * _movementSpeed;
+        }
+
+        private void MoveDirection(InputAction.CallbackContext context) {
             _inputDirection = context.ReadValue<Vector2>();
-            transform.Translate(_inputDirection * _movementSpeed * Time.deltaTime);
-            Debug.Log("MOVEINPUT");
+            onMoveDirectionChange.Invoke(_inputDirection);
         }
 
     }
