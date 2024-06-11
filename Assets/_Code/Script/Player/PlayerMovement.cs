@@ -6,7 +6,7 @@ namespace BGTask {
     [RequireComponent(typeof(Rigidbody2D))]
     public class PlayerMovement : Singleton<PlayerMovement> {
 
-        public UnityEvent<Vector2> onMoveDirectionChange { get; private set; } = new UnityEvent<Vector2>();
+        public UnityEvent<Vector2> OnMoveDirectionChange { get; private set; } = new UnityEvent<Vector2>();
 
         [Header("Input")]
 
@@ -25,7 +25,6 @@ namespace BGTask {
         protected override void Awake() {
             base.Awake();
 
-            _movementInput.action.actionMap.Enable();
             _movementInput.action.performed += MoveDirection;
             _movementInput.action.canceled += MoveDirection;
             
@@ -42,7 +41,7 @@ namespace BGTask {
 
         private void MoveDirection(InputAction.CallbackContext context) {
             _inputDirection = context.ReadValue<Vector2>();
-            onMoveDirectionChange?.Invoke(_inputDirection);
+            OnMoveDirectionChange?.Invoke(_inputDirection);
 
             Debug.Log($"Movement Direction Changed to {_inputDirection}");
         }

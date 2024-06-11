@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 namespace BGTask {
     public class PlayerInteract : Singleton<PlayerInteract> {
 
-        public UnityEvent onInteract { get; private set; } = new UnityEvent();
+        public UnityEvent OnInteract { get; private set; } = new UnityEvent();
 
         [Header("Input")]
 
@@ -29,14 +29,14 @@ namespace BGTask {
         }
 
         private void Start() {
-            PlayerMovement.Instance.onMoveDirectionChange.AddListener(MoveInteractPoint);
+            PlayerMovement.Instance.OnMoveDirectionChange.AddListener(MoveInteractPoint);
         }
 
         private void Interact(InputAction.CallbackContext context) {
             Collider2D[] hits = new Collider2D[3];
             if (Physics2D.OverlapCircleNonAlloc(_interactPoint.position, _interactPointRange, hits, _interactableLayer) > 0) {
                 hits.OrderBy(collider => collider != null ? Vector3.Distance(transform.position, collider.transform.position) : 999f).First().GetComponent<IInteractable>().Interact();
-                onInteract?.Invoke();
+                OnInteract?.Invoke();
             }
         }
 

@@ -11,8 +11,12 @@ namespace BGTask {
 
         private SpriteRenderer _spriteRenderer;
 
+        private void Awake() {
+            _spriteRenderer = GetComponent<SpriteRenderer>();
+        }
+
         void Update() {
-            _spriteRenderer.sortingOrder = (int)transform.position.y + _offset;
+            _spriteRenderer.sortingOrder = -((int)transform.position.y) + _offset;
         }
     }
 }

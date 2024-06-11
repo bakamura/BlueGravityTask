@@ -5,10 +5,8 @@ using UnityEngine.InputSystem;
 namespace BGTask {
     public class Pause : Singleton<Pause> {
 
-        [Header("Events")]
-
-        public UnityEvent onPause = new UnityEvent();
-        public UnityEvent onUnpause = new UnityEvent();
+        [field: SerializeField] public UnityEvent OnPause { get; private set; } = new UnityEvent();
+        [field: SerializeField] public UnityEvent OnUnpause { get; private set; } = new UnityEvent();
 
         [Header("Inputs")]
 
@@ -21,7 +19,7 @@ namespace BGTask {
         }
 
         public void PauseGame(bool isPausing) {
-            (isPausing ? onPause : onUnpause)?.Invoke();
+            (isPausing ? OnPause : OnUnpause)?.Invoke();
 
             Debug.Log($"Game Pause: {isPausing}");
         }
