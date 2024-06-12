@@ -29,15 +29,13 @@ namespace BGTask {
             for (int i = 0; i < _buyBtns.Length; i++) {
                 _buyBtns[i] = Instantiate(_buyBtnPrefab, _buyBtnsContainer);
                 _buyBtns[i].Setup(_soldClothes[i].Clothing.Id, _soldClothes[i].BuyPrice);
-                _buyBtns[i].Button.onClick.AddListener(() => {
-                    int id = i;
-                    Buy(id);
-                });
+                int id = i;
+                _buyBtns[i].Button.onClick.AddListener(() => Buy(id));
             }
         }
 
         public void UpdateBuyAvailability() {
-            for (int i = 0; i < _buyBtns.Length; i++) _buyBtns[i].enabled = (!PlayerInventory.Instance.HasClothing(_soldClothes[i].Clothing) && PlayerInventory.Instance.CanPay(_soldClothes[i].BuyPrice));
+            for (int i = 0; i < _buyBtns.Length; i++) _buyBtns[i].Button.interactable = (!PlayerInventory.Instance.HasClothing(_soldClothes[i].Clothing) && PlayerInventory.Instance.CanPay(_soldClothes[i].BuyPrice));
         }
 
         public void UpdateSellAvailability() {

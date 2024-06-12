@@ -12,6 +12,7 @@ namespace BGTask {
         public void Interact() {
             InputChanger.Instance.ChangeInputMap("Menu");
             _menuGroup.CloseCurrentThenOpen(_shopMenu);
+            _shopMenu.GetComponent<Shop>().UpdateBuyAvailability();
         }
 
     }

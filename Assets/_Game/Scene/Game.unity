@@ -4070,7 +4070,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1027959100
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15559,6 +15559,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1628550909}
+  - component: {fileID: 1628550910}
   m_Layer: 5
   m_Name: BuyTab
   m_TagString: Untagged
@@ -15585,6 +15586,30 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 16}
   m_SizeDelta: {x: -64.000015, y: -64}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1628550910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628550908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 410.6667, y: 328}
+  m_Spacing: {x: 0, y: 0}
+  m_Constraint: 1
+  m_ConstraintCount: 3
 --- !u!1 &1645509732
 GameObject:
   m_ObjectHideFlags: 0
@@ -21032,6 +21057,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d4fbc87a84dcdc4e8185c41a54413b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _buyBtnPrefab: {fileID: 2961296148853801823, guid: 799ff7b1414ccb548b65b94694fd632d, type: 3}
+  _buyBtnsContainer: {fileID: 1628550909}
   _soldClothes:
   - <Clothing>k__BackingField:
       <Type>k__BackingField: 0
