@@ -19,7 +19,7 @@ namespace BGTask {
         private static int MOVEMENT_BOOL_PARAMETER = Animator.StringToHash("IsMoving");
         private static int MOVEMENT_X_PARAMETER = Animator.StringToHash("MovementX");
         private static int MOVEMENT_Y_PARAMETER = Animator.StringToHash("MovementY");
-        private static int INTERACT_PARAMETER = Animator.StringToHash("Interact");
+        //private static int INTERACT_PARAMETER = Animator.StringToHash("Interact");
 
         protected override void Awake() {
             base.Awake();
@@ -31,7 +31,7 @@ namespace BGTask {
 
         private void Start() {
             PlayerMovement.Instance.OnMoveDirectionChange.AddListener(MoveAnimation);
-            PlayerInteract.Instance.OnInteract.AddListener(InteractAnimation);
+            //PlayerInteract.Instance.OnInteract.AddListener(InteractAnimation);
         }
 
         private void Update() {
@@ -48,17 +48,27 @@ namespace BGTask {
             else _animator.SetBool(MOVEMENT_BOOL_PARAMETER, false);
         }
 
-        private void InteractAnimation() {
-            _animator.SetTrigger(INTERACT_PARAMETER);
-        }
+        //private void InteractAnimation() {
+        //    _animator.SetTrigger(INTERACT_PARAMETER);
+        //}
 
         public void UpdateAccessorySprites(Clothing clothing) {
-            Sprite[] sprites = Resources.LoadAll<Sprite>($"Clothing/Sheet/{clothing.Id}_Sheet");
+            Sprite[] sprites = clothing.Id != null ? Resources.LoadAll<Sprite>($"Clothing/Sheet/{clothing.Id}_Sheet") : new Sprite[_accessoriesSprites.GetLength(1)];
             for (int i = 0; i < sprites.Length; i++) _accessoriesSprites[(int)clothing.Type, i] = sprites[i];
+            UpdateAccessoryRenderers();
         }
 
         private void UpdateAccessoryRenderers() {
             for (int i = 0; i < _accessoriesSprites.GetLength(0); i++) _accessoryRenderers[i].sprite = _accessoriesSprites[i, _frameIterator];
+        }
+
+        public void ResetAllAccessorySprites() {
+            Clothing[] clothingTypes = new Clothing[3] {
+                new Clothing(Clothing.Placement.Suit, null),
+                new Clothing(Clothing.Placement.Hair, null),
+                new Clothing(Clothing.Placement.Hat, null)
+            };
+            foreach(Clothing clothing in clothingTypes) UpdateAccessorySprites(clothing);
         }
 
     }

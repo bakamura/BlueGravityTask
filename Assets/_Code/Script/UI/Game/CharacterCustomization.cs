@@ -13,6 +13,12 @@ namespace BGTask {
 
         private List<ItemEquipBtn> _itemEquipBtns = new List<ItemEquipBtn>();
 
+        private void Awake() {
+            ItemEquipBtn itemUnequipBtn = Instantiate(_itemEquipBtnPrefab, _itemEquipContainer);
+            itemUnequipBtn.Setup("Nothing");
+            itemUnequipBtn.Button.onClick.AddListener(() => PlayerAnimation.Instance.ResetAllAccessorySprites());
+        }
+
         public void UpdateEquipAvailable() {
             Clothing[] availableClothes = PlayerInventory.Instance.ReadClothes();
             for (int i = 0; i < availableClothes.Length; i++) {

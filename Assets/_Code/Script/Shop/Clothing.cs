@@ -12,4 +12,9 @@ public class Clothing {
     [field: SerializeField] public Placement Type { get; private set; }
     [field: SerializeField] public string Id { get; private set; }
 
+    public Clothing(Placement type, string id) {
+        Type = type;
+        Id = id;
+    }
+
 }
