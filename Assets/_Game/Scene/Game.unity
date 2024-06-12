@@ -168,7 +168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc558e6ed39d012449d02241bcab87f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _offset: 0
+  _offset: 1
 --- !u!212 &1284356
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1355,7 +1355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc558e6ed39d012449d02241bcab87f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _offset: 0
+  _offset: 3
 --- !u!212 &240835991
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2410,7 +2410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc558e6ed39d012449d02241bcab87f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _offset: 0
+  _offset: 2
 --- !u!212 &674436304
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23039,7 +23039,7 @@ Animator:
   m_GameObject: {fileID: 1811457203}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c2bb3826e70267546a09f3ae80dee108, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

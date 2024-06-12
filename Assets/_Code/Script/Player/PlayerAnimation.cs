@@ -16,6 +16,7 @@ namespace BGTask {
         private int _frameIterator;
         private Sprite[,] _accessoriesSprites;
 
+        private static int MOVEMENT_BOOL_PARAMETER = Animator.StringToHash("IsMoving");
         private static int MOVEMENT_X_PARAMETER = Animator.StringToHash("MovementX");
         private static int MOVEMENT_Y_PARAMETER = Animator.StringToHash("MovementY");
         private static int INTERACT_PARAMETER = Animator.StringToHash("Interact");
@@ -39,8 +40,12 @@ namespace BGTask {
         }
 
         private void MoveAnimation(Vector2 direction) {
-            _animator.SetFloat(MOVEMENT_X_PARAMETER, direction.x);
-            _animator.SetFloat(MOVEMENT_Y_PARAMETER, direction.y);
+            if (direction != Vector2.zero) {
+                _animator.SetFloat(MOVEMENT_X_PARAMETER, direction.x);
+                _animator.SetFloat(MOVEMENT_Y_PARAMETER, direction.y);
+                _animator.SetBool(MOVEMENT_BOOL_PARAMETER, true);
+            }
+            else _animator.SetBool(MOVEMENT_BOOL_PARAMETER, false);
         }
 
         private void InteractAnimation() {
@@ -53,7 +58,7 @@ namespace BGTask {
         }
 
         private void UpdateAccessoryRenderers() {
-            for(int i = 0; i < _accessoriesSprites.GetLength(0); i++) _accessoryRenderers[i].sprite = _accessoriesSprites[i, _frameIterator];
+            for (int i = 0; i < _accessoriesSprites.GetLength(0); i++) _accessoryRenderers[i].sprite = _accessoriesSprites[i, _frameIterator];
         }
 
     }
