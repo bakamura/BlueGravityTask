@@ -42,6 +42,10 @@ namespace BGTask {
             return _clothes.Contains(clothing); // Change to check for equivalence instead
         }
 
+        public Clothing[] ReadClothes() {
+            return _clothes.ToArray();
+        }
+
         public void AddClothing(Clothing addedClothing) {
             _clothes.Add(addedClothing);
         }

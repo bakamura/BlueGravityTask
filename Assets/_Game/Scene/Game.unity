@@ -4064,6 +4064,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1027959100}
+  - component: {fileID: 1027959101}
   m_Layer: 5
   m_Name: SellTab
   m_TagString: Untagged
@@ -4090,6 +4091,30 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 16}
   m_SizeDelta: {x: -64.000015, y: -64}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1027959101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027959099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 410.6667, y: 328}
+  m_Spacing: {x: 0, y: 0}
+  m_Constraint: 1
+  m_ConstraintCount: 3
 --- !u!1 &1035097887
 GameObject:
   m_ObjectHideFlags: 0
@@ -5664,6 +5689,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1731886432}
+        m_TargetAssemblyTypeName: BGTask.Shop, Assembly-CSharp
+        m_MethodName: UpdateSellAvailability
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -21059,6 +21096,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _buyBtnPrefab: {fileID: 2961296148853801823, guid: 799ff7b1414ccb548b65b94694fd632d, type: 3}
   _buyBtnsContainer: {fileID: 1628550909}
+  _sellBtnsContainer: {fileID: 1027959100}
   _soldClothes:
   - <Clothing>k__BackingField:
       <Type>k__BackingField: 0

@@ -9,6 +9,7 @@ namespace BGTask {
 
         [SerializeField] private ItemBuyBtn _buyBtnPrefab;
         [SerializeField] private Transform _buyBtnsContainer;
+        [SerializeField] private Transform _sellBtnsContainer;
 
         [Header("Parameters")]
 
@@ -23,8 +24,13 @@ namespace BGTask {
         [Header("Cache")]
 
         private ItemBuyBtn[] _buyBtns;
+        private List<ItemBuyBtn> _sellBtns = new List<ItemBuyBtn>();
 
         private void Awake() {
+            InstantiateBuyBtns();
+        }
+
+        private void InstantiateBuyBtns() {
             _buyBtns = new ItemBuyBtn[_soldClothes.Count];
             for (int i = 0; i < _buyBtns.Length; i++) {
                 _buyBtns[i] = Instantiate(_buyBtnPrefab, _buyBtnsContainer);
@@ -39,7 +45,16 @@ namespace BGTask {
         }
 
         public void UpdateSellAvailability() {
-
+            Clothing[] sellableClothes = PlayerInventory.Instance.ReadClothes();
+            for (int i = 0; i < sellableClothes.Length; i++) {
+                ShopItem shopItemRef = _soldClothes.FirstOrDefault(shopItem => shopItem.Clothing.Id == sellableClothes[i].Id);
+                if (i >= _sellBtns.Count) _sellBtns.Add(Instantiate(_buyBtnPrefab, _sellBtnsContainer));
+                else _sellBtns[i].gameObject.SetActive(true);
+                _sellBtns[i].Setup(shopItemRef.Clothing.Id, shopItemRef.SellPrice);
+                _sellBtns[i].Button.onClick.RemoveAllListeners();
+                _sellBtns[i].Button.onClick.AddListener(() => Sell(shopItemRef.Clothing));
+            }
+            for(int i = sellableClothes.Length; i < _sellBtns.Count; i++) _sellBtns[i].gameObject.SetActive(false);
         }
 
         public void Buy(int id) {
@@ -53,6 +68,9 @@ namespace BGTask {
         public void Sell(Clothing clothing) {
             PlayerInventory.Instance.AddCoins(_soldClothes.FirstOrDefault(shopItem => shopItem.Clothing.Id == clothing.Id).SellPrice);
             PlayerInventory.Instance.RemoveClothing(clothing);
+            UpdateSellAvailability();
+
+            Debug.Log($"Sold '{clothing.Id}'");
         }
 
         public void Close() {
