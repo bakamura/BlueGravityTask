@@ -59,7 +59,8 @@ namespace BGTask {
         }
 
         private void UpdateAccessoryRenderers() {
-            for (int i = 0; i < _accessoriesSprites.GetLength(0); i++) _accessoryRenderers[i].sprite = _accessoriesSprites[i, _frameIterator];
+            _currentFrame = _frameIterator;
+            for (int i = 0; i < _accessoriesSprites.GetLength(0); i++) _accessoryRenderers[i].sprite = _accessoriesSprites[i, _currentFrame];
         }
 
         public void ResetAllAccessorySprites() {
