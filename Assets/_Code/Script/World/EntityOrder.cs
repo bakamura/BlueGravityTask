@@ -16,7 +16,7 @@ namespace BGTask {
         }
 
         void Update() {
-            _spriteRenderer.sortingOrder = -((int)transform.position.y) + _offset;
+            _spriteRenderer.sortingOrder =  (int)(-10f * transform.position.y) + _offset;
         }
     }
 }

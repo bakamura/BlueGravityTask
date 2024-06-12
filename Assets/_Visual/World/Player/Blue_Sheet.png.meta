@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 17271d008b6ee8d419781fd63409418e
+guid: 53a5d459feb8ee049989e515dca37a61
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerBase_Sheet_0
+      name: Blue_Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -111,14 +111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8587d89e914fd404bb598ad9abe25510
-      internalID: 293527652
+      spriteID: 46277b1808c61a74fa8f7bb7695ac6b1
+      internalID: -1014474439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_1
+      name: Blue_Sheet_1
       rect:
         serializedVersion: 2
         x: 64
@@ -132,14 +132,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67eb670052c573a4592295e4d8f648af
-      internalID: 960307983
+      spriteID: abd8ad7acdc150b44a456d6b1e0a37d9
+      internalID: 602051115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_2
+      name: Blue_Sheet_2
       rect:
         serializedVersion: 2
         x: 128
@@ -153,14 +153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91b2681d07c4e4d4597dac189a04259d
-      internalID: 40794493
+      spriteID: 22d3913766699db4dae42312378297bd
+      internalID: -295857538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_3
+      name: Blue_Sheet_3
       rect:
         serializedVersion: 2
         x: 192
@@ -174,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f227901a80d3234781d4804bd3bdbf5
-      internalID: -1389841785
+      spriteID: 9a139b47417acaa4598b05f2979de405
+      internalID: -402819263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_4
+      name: Blue_Sheet_4
       rect:
         serializedVersion: 2
         x: 256
@@ -195,14 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53d3bc75648dfde44b6fd3b4eda37f84
-      internalID: 710671469
+      spriteID: c45cb55f366c1774f80cd2ebccecf4cc
+      internalID: -116042432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_5
+      name: Blue_Sheet_5
       rect:
         serializedVersion: 2
         x: 320
@@ -216,14 +216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a4b9c39e4c224b4497a4041e1466654
-      internalID: 732935807
+      spriteID: 40bb26de036176e4d8011f2562df9945
+      internalID: -622142781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_6
+      name: Blue_Sheet_6
       rect:
         serializedVersion: 2
         x: 384
@@ -237,14 +237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a58e2b1c1990790409bff414628e928b
-      internalID: -1264994707
+      spriteID: 9118c992dd89e994fb30b476c9395023
+      internalID: 1516384199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_7
+      name: Blue_Sheet_7
       rect:
         serializedVersion: 2
         x: 448
@@ -258,14 +258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d4edea974a40d248b059e356f18f6cf
-      internalID: 634098242
+      spriteID: b43490bac63e87b4d91dbf4282a1a949
+      internalID: -1370505414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_8
+      name: Blue_Sheet_8
       rect:
         serializedVersion: 2
         x: 0
@@ -279,14 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfef55b363ff5b448b75ecccad3b8c79
-      internalID: 1046427315
+      spriteID: 1bc584ec8ecf7c743b6d8c1e489937a9
+      internalID: -833765442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_9
+      name: Blue_Sheet_9
       rect:
         serializedVersion: 2
         x: 64
@@ -300,14 +300,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2726537c172305e4895fde0c05cb8717
-      internalID: -1224185877
+      spriteID: 102ab651006a699489dfd2e6dd419db6
+      internalID: -1261554400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_10
+      name: Blue_Sheet_10
       rect:
         serializedVersion: 2
         x: 128
@@ -321,14 +321,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2438d205cf6e124ca32c92f70eceec8
-      internalID: 990674712
+      spriteID: cd5dac19e93e15141930d927e7392c50
+      internalID: 1361485089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_11
+      name: Blue_Sheet_11
       rect:
         serializedVersion: 2
         x: 192
@@ -342,14 +342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96b45e70e111a34408c5df4d3c5ec46a
-      internalID: -1547604672
+      spriteID: 0732c8b6a3681ad46b625717bdcb37f8
+      internalID: -681944577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_12
+      name: Blue_Sheet_12
       rect:
         serializedVersion: 2
         x: 256
@@ -363,14 +363,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbb01556918803d4a8326919b18c6799
-      internalID: 1896802884
+      spriteID: 3933804d92ca4e14ca355f8bda562c57
+      internalID: -1873875377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_13
+      name: Blue_Sheet_13
       rect:
         serializedVersion: 2
         x: 320
@@ -384,14 +384,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1b0afeaf8660f947b2522118f5781e3
-      internalID: -1149304883
+      spriteID: 35cf1054b249cd5489569e55511f1fd6
+      internalID: -13746447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_14
+      name: Blue_Sheet_14
       rect:
         serializedVersion: 2
         x: 384
@@ -405,14 +405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ea103a17deed6a4a89dd5459fa054f5
-      internalID: 601950516
+      spriteID: 7ba86288660d5e148b2172bb4f1816d8
+      internalID: 602747209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_15
+      name: Blue_Sheet_15
       rect:
         serializedVersion: 2
         x: 448
@@ -426,14 +426,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74f5da2befcb7eb469834000316031da
-      internalID: -796505640
+      spriteID: c27b2733ec4667d438cb9b9ea4a6b9c4
+      internalID: 1674716159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_16
+      name: Blue_Sheet_16
       rect:
         serializedVersion: 2
         x: 0
@@ -447,14 +447,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ad6468030e20da479577430d34706ca
-      internalID: -1527729592
+      spriteID: be29fc7edea1bb44fbedd787c5834a3f
+      internalID: -1674559427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_17
+      name: Blue_Sheet_17
       rect:
         serializedVersion: 2
         x: 64
@@ -468,14 +468,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23de923cae76f3c43ba4b69f961cd872
-      internalID: 1346330334
+      spriteID: 896e98cadcb85604ca054d8b98a45102
+      internalID: 1790186288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_18
+      name: Blue_Sheet_18
       rect:
         serializedVersion: 2
         x: 128
@@ -489,14 +489,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 057e518d6cf898948b84775d335d298d
-      internalID: 1590253597
+      spriteID: f8d550d4b99507544bbcfa5ac9f00b59
+      internalID: -1370688576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_19
+      name: Blue_Sheet_19
       rect:
         serializedVersion: 2
         x: 192
@@ -510,14 +510,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f01565ad2b609444faa70fa932ed93e5
-      internalID: 66257609
+      spriteID: 1749829d782a80a43814f906329ce84c
+      internalID: 1333512350
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_20
+      name: Blue_Sheet_20
       rect:
         serializedVersion: 2
         x: 256
@@ -531,14 +531,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9ae98f0fc63d064bb1bd300b34b546d
-      internalID: -680271519
+      spriteID: b20a0d53dfdd45142a130a0644a1e3bf
+      internalID: 1293018028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_21
+      name: Blue_Sheet_21
       rect:
         serializedVersion: 2
         x: 320
@@ -552,14 +552,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b71ff316d5e9a143aa5bd697b5f1d82
-      internalID: 327943394
+      spriteID: 3df8dd4d267782140b5f0cee9e89b4a9
+      internalID: -2137312380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_22
+      name: Blue_Sheet_22
       rect:
         serializedVersion: 2
         x: 384
@@ -573,14 +573,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1ca837ad97a13b4284e011ee3b40e6d
-      internalID: 1305308979
+      spriteID: 7c7eb1df58e146d4d9a0407658691013
+      internalID: 1671299162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_23
+      name: Blue_Sheet_23
       rect:
         serializedVersion: 2
         x: 448
@@ -594,14 +594,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0eac67ad26a0f6d479dd2b2ce3071ed6
-      internalID: 752206231
+      spriteID: 647e6a3caab3f9d44b94845eee69f83b
+      internalID: 2031509518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_24
+      name: Blue_Sheet_24
       rect:
         serializedVersion: 2
         x: 0
@@ -615,14 +615,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 774edfd43cf0cdd4dbbe0e1a2491e199
-      internalID: 1620189395
+      spriteID: fc04a323c40881149bf7ad601c242579
+      internalID: 522597171
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_25
+      name: Blue_Sheet_25
       rect:
         serializedVersion: 2
         x: 64
@@ -636,14 +636,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ceb75dc6278494344bd2249aece99237
-      internalID: 1910316116
+      spriteID: f3f3895e95ad3e24cb53858e4ad8cc24
+      internalID: 925855586
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_26
+      name: Blue_Sheet_26
       rect:
         serializedVersion: 2
         x: 128
@@ -657,14 +657,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac6d91e5313c33b4995b4fe61c43720e
-      internalID: 1781751541
+      spriteID: e700efbae05706d4fa712a335a11f5d6
+      internalID: -794386530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_27
+      name: Blue_Sheet_27
       rect:
         serializedVersion: 2
         x: 192
@@ -678,14 +678,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2876f3eb86afa55499b6e5401dcaa7b2
-      internalID: -1792267802
+      spriteID: 5c56fb3f1519ef24a9d2f0c5f398c43f
+      internalID: -272971075
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_28
+      name: Blue_Sheet_28
       rect:
         serializedVersion: 2
         x: 256
@@ -699,14 +699,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6463df68a2b61d34b8e623d200500ca0
-      internalID: 317210579
+      spriteID: b980f6d41c4b7f940adec5cab0bebbd0
+      internalID: 1950778981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_29
+      name: Blue_Sheet_29
       rect:
         serializedVersion: 2
         x: 320
@@ -720,14 +720,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ff1226bc4efb9840b6bb7c0ffb47cba
-      internalID: 1148608781
+      spriteID: d8e9ec528fe12474a94fa8bc1316a47a
+      internalID: 481383658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_30
+      name: Blue_Sheet_30
       rect:
         serializedVersion: 2
         x: 384
@@ -741,14 +741,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6783aabb006e0d74bb39435192abdf6a
-      internalID: -1678749680
+      spriteID: 19330d7234e16ee43b7e456cff0ddf45
+      internalID: 999403854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_31
+      name: Blue_Sheet_31
       rect:
         serializedVersion: 2
         x: 448
@@ -762,14 +762,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89b83e9466d9ffb4e96399ec92c4f192
-      internalID: -401054767
+      spriteID: c0732f47af372394b9f01e5ef14b4b98
+      internalID: -1367874642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_32
+      name: Blue_Sheet_32
       rect:
         serializedVersion: 2
         x: 0
@@ -783,14 +783,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70e1d099170373f4bae7c1a677242af2
-      internalID: -1733734270
+      spriteID: f2af49fef737c4844a954f3112cbe719
+      internalID: 2139922057
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_33
+      name: Blue_Sheet_33
       rect:
         serializedVersion: 2
         x: 64
@@ -804,14 +804,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd011899ec277694499a56223cefcfb3
-      internalID: -813432880
+      spriteID: 7ef3247dae8a1ad4da74bea45e34ecc2
+      internalID: 1016765717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_34
+      name: Blue_Sheet_34
       rect:
         serializedVersion: 2
         x: 128
@@ -825,14 +825,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 011b11c9da94fc94b9ee3a0b6a3134df
-      internalID: 1671438076
+      spriteID: e24a7c74cf3c683499a1f27399253cdc
+      internalID: -1410289946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_35
+      name: Blue_Sheet_35
       rect:
         serializedVersion: 2
         x: 192
@@ -846,14 +846,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24dc633e4183f7548b42c855d7020bd8
-      internalID: 1443419019
+      spriteID: fecc6fdbd029a284cbf91e5e1da34413
+      internalID: 1184934067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_36
+      name: Blue_Sheet_36
       rect:
         serializedVersion: 2
         x: 256
@@ -867,14 +867,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63b07f0f0249c534aaf848c9e638357a
-      internalID: -2144709166
+      spriteID: 05ecbdb72d96f934598860aab543574c
+      internalID: 875042264
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_37
+      name: Blue_Sheet_37
       rect:
         serializedVersion: 2
         x: 320
@@ -888,14 +888,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7254dfbe6299f0a4292c2e832f4492b7
-      internalID: -1103645731
+      spriteID: 009bc47105f9d924aac32fabd860a2dc
+      internalID: -2100327169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_38
+      name: Blue_Sheet_38
       rect:
         serializedVersion: 2
         x: 384
@@ -909,14 +909,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d8de8b2f99022f498a490ebfd200905
-      internalID: -499743680
+      spriteID: c459c94fdabadc0448bad06a71ffa0fc
+      internalID: -1046500622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_39
+      name: Blue_Sheet_39
       rect:
         serializedVersion: 2
         x: 448
@@ -930,14 +930,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24b978dd81a66074cb925ef1118e08df
-      internalID: 1045769407
+      spriteID: b0b9199258469234e915a52a9625c086
+      internalID: -1306406267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_40
+      name: Blue_Sheet_40
       rect:
         serializedVersion: 2
         x: 0
@@ -951,14 +951,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b1fe75a5f03878499784ffaa1371ea5
-      internalID: -1257085814
+      spriteID: c467ffeb44f74bd4abf6d063638415a9
+      internalID: -63274196
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_41
+      name: Blue_Sheet_41
       rect:
         serializedVersion: 2
         x: 64
@@ -972,14 +972,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ef42c740f016c045a269085735d2360
-      internalID: 1364175536
+      spriteID: 2d7d4f354b25e414d87ac988c9fa72fb
+      internalID: -1166869613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_42
+      name: Blue_Sheet_42
       rect:
         serializedVersion: 2
         x: 128
@@ -993,14 +993,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ed126931986351419205f55ea12e6a4
-      internalID: 1056257066
+      spriteID: c8a1cd15531887349ab662ed3886079f
+      internalID: -1910229105
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_43
+      name: Blue_Sheet_43
       rect:
         serializedVersion: 2
         x: 192
@@ -1014,14 +1014,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f790b1fd384fd5a4a949d3f6e41d0f58
-      internalID: -1586886036
+      spriteID: 46b33839d64b97241909aebd0a03755d
+      internalID: -1049301756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_44
+      name: Blue_Sheet_44
       rect:
         serializedVersion: 2
         x: 256
@@ -1035,14 +1035,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b199fe49bcdd2974d84f7e5b746474c9
-      internalID: -1614256078
+      spriteID: 5f3c47e64ff632b418f422ae6d53e889
+      internalID: -681712746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_45
+      name: Blue_Sheet_45
       rect:
         serializedVersion: 2
         x: 320
@@ -1056,14 +1056,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db1243faaa744ef4eac34bd93f8236c0
-      internalID: 509018774
+      spriteID: c6351314aaec5d840821bf3e9f380dfc
+      internalID: 552174911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_46
+      name: Blue_Sheet_46
       rect:
         serializedVersion: 2
         x: 384
@@ -1077,14 +1077,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f327993b6ede8644937a2fc2b197c8e
-      internalID: 1469943868
+      spriteID: 0a32309cd707ea34fb3efc5d9947a539
+      internalID: -2024633513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_47
+      name: Blue_Sheet_47
       rect:
         serializedVersion: 2
         x: 448
@@ -1098,14 +1098,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd0ca98fde95d5c40b93cf55832dfbcd
-      internalID: -693742500
+      spriteID: f125a78a16b0174469176c926cd2b0d8
+      internalID: 201242474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_48
+      name: Blue_Sheet_48
       rect:
         serializedVersion: 2
         x: 0
@@ -1119,14 +1119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99471710252f96d4ba38cd37b4187c64
-      internalID: 724882507
+      spriteID: aa595a0be53e0354e88055c770d2d054
+      internalID: 1982423645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_49
+      name: Blue_Sheet_49
       rect:
         serializedVersion: 2
         x: 64
@@ -1140,14 +1140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b1c2c16ebbf55441be8cbd30736cf4f
-      internalID: 440995130
+      spriteID: cfadd43019d9ca84abcdd476d61fb8f1
+      internalID: -462977718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_50
+      name: Blue_Sheet_50
       rect:
         serializedVersion: 2
         x: 128
@@ -1161,14 +1161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b52b6a78df7c42f439059b485e098cad
-      internalID: 2017664944
+      spriteID: b8d80d17b8111ec4a938ee3a202676d9
+      internalID: 1834389460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_51
+      name: Blue_Sheet_51
       rect:
         serializedVersion: 2
         x: 192
@@ -1182,14 +1182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b4aee4622d450446a7e6aa479b66016
-      internalID: -573485037
+      spriteID: ab2978d480405bb47b32dd8049cc8e94
+      internalID: -764833067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_52
+      name: Blue_Sheet_52
       rect:
         serializedVersion: 2
         x: 256
@@ -1203,14 +1203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b27ec03931bafa41ba15cf33db9eab5
-      internalID: -480108696
+      spriteID: de2db593248d4474b815ed75d3930784
+      internalID: 1179942473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_53
+      name: Blue_Sheet_53
       rect:
         serializedVersion: 2
         x: 320
@@ -1224,14 +1224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b394af62a81d31547a5e7c711694ed35
-      internalID: -424179905
+      spriteID: b66e882c0520189428ef6c4b850765cb
+      internalID: 782164261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_54
+      name: Blue_Sheet_54
       rect:
         serializedVersion: 2
         x: 384
@@ -1245,14 +1245,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b4393d9b4f44f04d99971478f696710
-      internalID: -235197950
+      spriteID: 3b932f001170fef4687ef9def41291d9
+      internalID: 1411306471
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_55
+      name: Blue_Sheet_55
       rect:
         serializedVersion: 2
         x: 448
@@ -1266,14 +1266,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49da5312379a10541b6addd9b1cf9dc3
-      internalID: -740257687
+      spriteID: 77d10eab72c5420498f5a120eb83682d
+      internalID: -750152049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_56
+      name: Blue_Sheet_56
       rect:
         serializedVersion: 2
         x: 0
@@ -1287,14 +1287,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6647f118987e8824a8c527daee14f57e
-      internalID: 15295443
+      spriteID: 19691010e9d0a2f4d80448a6a2f38a9d
+      internalID: 1832170824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_57
+      name: Blue_Sheet_57
       rect:
         serializedVersion: 2
         x: 64
@@ -1308,14 +1308,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39d788f5ae6333a498a8962aa055292f
-      internalID: 727405754
+      spriteID: 0efffe8fbf243844cbb73cd1624d6c35
+      internalID: 155991841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_58
+      name: Blue_Sheet_58
       rect:
         serializedVersion: 2
         x: 128
@@ -1329,14 +1329,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d0a5c69f553d3f45a5985d86ba3762f
-      internalID: 1710109956
+      spriteID: 2bb0f8fd16e27154793f740d3fe2412d
+      internalID: 1029733867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_59
+      name: Blue_Sheet_59
       rect:
         serializedVersion: 2
         x: 192
@@ -1350,14 +1350,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7aa5002d4fb29b4690ccec7163e5a4b
-      internalID: -1966033843
+      spriteID: 6e9dabec0e25409499d86c2ead267580
+      internalID: 219430137
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_60
+      name: Blue_Sheet_60
       rect:
         serializedVersion: 2
         x: 256
@@ -1371,14 +1371,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a1f608faa8355a479829ef809551de9
-      internalID: -1017222638
+      spriteID: 973c1b5413bc72b42b6753476e02167e
+      internalID: 1756565336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_61
+      name: Blue_Sheet_61
       rect:
         serializedVersion: 2
         x: 320
@@ -1392,14 +1392,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 937fb5a797cb4ef4cbc3a971cc50338c
-      internalID: 1907890524
+      spriteID: 4aa1ec5730380c34ab6f89045a7ab79c
+      internalID: 2079681336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_62
+      name: Blue_Sheet_62
       rect:
         serializedVersion: 2
         x: 384
@@ -1413,14 +1413,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e4fd2cacd96e2942b4328b438c27edb
-      internalID: 1073528229
+      spriteID: 45a325afcf74a4c44a4d34e254c55da9
+      internalID: 390642313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBase_Sheet_63
+      name: Blue_Sheet_63
       rect:
         serializedVersion: 2
         x: 448
@@ -1434,8 +1434,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e88a412c25118404fbdecf71b41eeca3
-      internalID: -1130490012
+      spriteID: 4be6a19567f05064f83cc2587340d25b
+      internalID: -1394854442
       vertices: []
       indices: 
       edges: []
@@ -1451,70 +1451,70 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PlayerBase_Sheet_0: 293527652
-      PlayerBase_Sheet_1: 960307983
-      PlayerBase_Sheet_10: 990674712
-      PlayerBase_Sheet_11: -1547604672
-      PlayerBase_Sheet_12: 1896802884
-      PlayerBase_Sheet_13: -1149304883
-      PlayerBase_Sheet_14: 601950516
-      PlayerBase_Sheet_15: -796505640
-      PlayerBase_Sheet_16: -1527729592
-      PlayerBase_Sheet_17: 1346330334
-      PlayerBase_Sheet_18: 1590253597
-      PlayerBase_Sheet_19: 66257609
-      PlayerBase_Sheet_2: 40794493
-      PlayerBase_Sheet_20: -680271519
-      PlayerBase_Sheet_21: 327943394
-      PlayerBase_Sheet_22: 1305308979
-      PlayerBase_Sheet_23: 752206231
-      PlayerBase_Sheet_24: 1620189395
-      PlayerBase_Sheet_25: 1910316116
-      PlayerBase_Sheet_26: 1781751541
-      PlayerBase_Sheet_27: -1792267802
-      PlayerBase_Sheet_28: 317210579
-      PlayerBase_Sheet_29: 1148608781
-      PlayerBase_Sheet_3: -1389841785
-      PlayerBase_Sheet_30: -1678749680
-      PlayerBase_Sheet_31: -401054767
-      PlayerBase_Sheet_32: -1733734270
-      PlayerBase_Sheet_33: -813432880
-      PlayerBase_Sheet_34: 1671438076
-      PlayerBase_Sheet_35: 1443419019
-      PlayerBase_Sheet_36: -2144709166
-      PlayerBase_Sheet_37: -1103645731
-      PlayerBase_Sheet_38: -499743680
-      PlayerBase_Sheet_39: 1045769407
-      PlayerBase_Sheet_4: 710671469
-      PlayerBase_Sheet_40: -1257085814
-      PlayerBase_Sheet_41: 1364175536
-      PlayerBase_Sheet_42: 1056257066
-      PlayerBase_Sheet_43: -1586886036
-      PlayerBase_Sheet_44: -1614256078
-      PlayerBase_Sheet_45: 509018774
-      PlayerBase_Sheet_46: 1469943868
-      PlayerBase_Sheet_47: -693742500
-      PlayerBase_Sheet_48: 724882507
-      PlayerBase_Sheet_49: 440995130
-      PlayerBase_Sheet_5: 732935807
-      PlayerBase_Sheet_50: 2017664944
-      PlayerBase_Sheet_51: -573485037
-      PlayerBase_Sheet_52: -480108696
-      PlayerBase_Sheet_53: -424179905
-      PlayerBase_Sheet_54: -235197950
-      PlayerBase_Sheet_55: -740257687
-      PlayerBase_Sheet_56: 15295443
-      PlayerBase_Sheet_57: 727405754
-      PlayerBase_Sheet_58: 1710109956
-      PlayerBase_Sheet_59: -1966033843
-      PlayerBase_Sheet_6: -1264994707
-      PlayerBase_Sheet_60: -1017222638
-      PlayerBase_Sheet_61: 1907890524
-      PlayerBase_Sheet_62: 1073528229
-      PlayerBase_Sheet_63: -1130490012
-      PlayerBase_Sheet_7: 634098242
-      PlayerBase_Sheet_8: 1046427315
-      PlayerBase_Sheet_9: -1224185877
+      Blue_Sheet_0: -1014474439
+      Blue_Sheet_1: 602051115
+      Blue_Sheet_10: 1361485089
+      Blue_Sheet_11: -681944577
+      Blue_Sheet_12: -1873875377
+      Blue_Sheet_13: -13746447
+      Blue_Sheet_14: 602747209
+      Blue_Sheet_15: 1674716159
+      Blue_Sheet_16: -1674559427
+      Blue_Sheet_17: 1790186288
+      Blue_Sheet_18: -1370688576
+      Blue_Sheet_19: 1333512350
+      Blue_Sheet_2: -295857538
+      Blue_Sheet_20: 1293018028
+      Blue_Sheet_21: -2137312380
+      Blue_Sheet_22: 1671299162
+      Blue_Sheet_23: 2031509518
+      Blue_Sheet_24: 522597171
+      Blue_Sheet_25: 925855586
+      Blue_Sheet_26: -794386530
+      Blue_Sheet_27: -272971075
+      Blue_Sheet_28: 1950778981
+      Blue_Sheet_29: 481383658
+      Blue_Sheet_3: -402819263
+      Blue_Sheet_30: 999403854
+      Blue_Sheet_31: -1367874642
+      Blue_Sheet_32: 2139922057
+      Blue_Sheet_33: 1016765717
+      Blue_Sheet_34: -1410289946
+      Blue_Sheet_35: 1184934067
+      Blue_Sheet_36: 875042264
+      Blue_Sheet_37: -2100327169
+      Blue_Sheet_38: -1046500622
+      Blue_Sheet_39: -1306406267
+      Blue_Sheet_4: -116042432
+      Blue_Sheet_40: -63274196
+      Blue_Sheet_41: -1166869613
+      Blue_Sheet_42: -1910229105
+      Blue_Sheet_43: -1049301756
+      Blue_Sheet_44: -681712746
+      Blue_Sheet_45: 552174911
+      Blue_Sheet_46: -2024633513
+      Blue_Sheet_47: 201242474
+      Blue_Sheet_48: 1982423645
+      Blue_Sheet_49: -462977718
+      Blue_Sheet_5: -622142781
+      Blue_Sheet_50: 1834389460
+      Blue_Sheet_51: -764833067
+      Blue_Sheet_52: 1179942473
+      Blue_Sheet_53: 782164261
+      Blue_Sheet_54: 1411306471
+      Blue_Sheet_55: -750152049
+      Blue_Sheet_56: 1832170824
+      Blue_Sheet_57: 155991841
+      Blue_Sheet_58: 1029733867
+      Blue_Sheet_59: 219430137
+      Blue_Sheet_6: 1516384199
+      Blue_Sheet_60: 1756565336
+      Blue_Sheet_61: 2079681336
+      Blue_Sheet_62: 390642313
+      Blue_Sheet_63: -1394854442
+      Blue_Sheet_7: -1370505414
+      Blue_Sheet_8: -833765442
+      Blue_Sheet_9: -1261554400
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
